@@ -80,7 +80,9 @@ def list_files_in_dir(path, fileFormat):
 
 # Read the race results from a file
 def read_race_results(folderPath, fileName, inputFormat):
-    file = folderPath + '\\' + fileName
+    # The file path construction using \\ might cause issues on Unix-like systems (including Linux and macOS).
+    # file = folderPath + '\\' + fileName
+    file = os.path.join(folderPath, fileName)
     if (inputFormat == 'csv'):
         with open(file, newline='') as csvfile:
             reader = csv.DictReader(csvfile)

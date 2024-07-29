@@ -1,0 +1,7 @@
+DEBUG:root:[2024-07-24 15:44:39] Welcome to the ELO CALCULATOR !! v2.0
+DEBUG:root:[2024-07-24 15:44:39] Connecting to DB : database.db
+DEBUG:root:[2024-07-24 15:44:53] CURRENT RANKING with 3 race(s):
+DEBUG:root:[2024-07-24 15:44:53] |#|ELO|LICENCE|PSEUDO|PRENOM|NOM DE FAMILLE|
+DEBUG:root:[2024-07-24 15:44:53] |:-|:-|:-:|:-:|:-:|:-:|
+DEBUG:root:[2024-07-24 15:45:28] List of all races
+DEBUG:root:[2024-07-24 15:46:41] Finished calculating rankings... Exiting !
