@@ -8,7 +8,7 @@ class Database:
         return
         
     def create(self, db_file):
-        self.conn = sqlite3.connect(db_file)
+        self.conn = sqlite3.connect(db_file, check_same_thread=False)
         self.create_tables()
     
     def create_tables(self):
